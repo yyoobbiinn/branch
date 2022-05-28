@@ -14,10 +14,10 @@ public class Calculator {
         operator = in.next();
 
         if (operator.equals("+")) {
-
+            Add.add(a, b);
         }
         else if (operator.equals("-")) {
-            
+
         }
         else if (operator.equals("*")) {
 
