@@ -17,13 +17,13 @@ public class Calculator {
             Add.add(a, b);
         }
         else if (operator.equals("-")) {
-
+            Sub.sub(a, b);
         }
         else if (operator.equals("*")) {
-
+            Mul.mul(a, b);
         }
         else if (operator.equals("/")) {
-
+            Div.div(a, b);
         }
         else {
             System.out.println("Wrong input.");
